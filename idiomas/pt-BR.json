@@ -1,0 +1,17 @@
+{
+    "comandos": {
+        "ajustes": {
+          "claim": {
+                "variable1": "❌ **A chave que você mencionou já foi usada!**",
+                "variable2": "`✅ **Recursos premium foram ativados neste servidor!**\nExpirará em <t:${Math.round((Date.now() + Number(chave.duração)) / 1000)}:R>`",
+              "variable3": "❌ **A chave que você especificou não foi encontrada!**",
+              "variable4": "Se você  esta vendo está mensagem, significa que você é um usuário premium! 🌟"
+            },
+            "set-language": {
+                "variable1": "`❌ Você deve especificar o novo idioma para o bot!\n**Idiomas disponíveis**: ${idiomas.map(idioma => `\\`${idioma}\\``).join(', ')}`",
+                "variable2": "`❌ Você deve especificar um idioma válido para o bot!\n**Idiomas disponíveis**: ${idiomas.map(idioma => `\\`${idioma}\\``).join(', ')}`",
+                "variable3": "`✅ Mudou o idioma de \\`${idioma}\\` para \\`${args[0]}\\``"
+            }
+        }
+    }
+}
