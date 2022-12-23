@@ -40,9 +40,9 @@ let data = await serverSchema.findOne({guildID: message.guild.id});
         }
       if(command.premium){
             if(data.premium){
-                if(data.premium <= Date.now()) return message.reply("❌ **Tu suscripción premium ha expirado!**")
+                if(data.premium <= Date.now()) return message.reply("❌ **Sua assinatura premium expirou!**")
             } else {
-                return message.reply("❌ **Este es un comando premium!**")
+                return message.reply("❌ **Este é um comando premium!**")
             }
   }
         
