@@ -29,9 +29,9 @@ module.exports = {
         }
       if(command.premium){
             if(data.premium){
-                if(data.premium <= Date.now()) return interaction.reply("❌ **Tu suscripción premium ha expirado!**")
+                if(data.premium <= Date.now()) return interaction.reply("❌ **Sua assinatura premium expirou!**")
             } else {
-                return interaction.reply("❌ **Este es un comando premium!**")
+                return interaction.reply("❌ **Este é um comando premium!**")
             }
       }
         
